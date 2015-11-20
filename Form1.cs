@@ -104,7 +104,8 @@ namespace ChangeCodeTool
             comboBox1.Items.Clear();
             comboBox1.Items.Insert(0, "ANSI");
             comboBox1.Items.Insert(1, "Unicode");
-            comboBox1.Select(0, 1);
+            comboBox1.SelectedText = "ANSI";
+            //comboBox1.Select(0, 1);
         }
 
         private void btnCovertFolder_Click(object sender, EventArgs e)
